@@ -1,12 +1,13 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $plugin_info = array(
-  'pi_name' => 'Structureframe Helper',
-  'pi_version' =>'1.1.0',
-  'pi_author' =>'John D Wells',
-  'pi_author_url' => 'https://github.com/johndwells/StructureFrame_Helper',
-  'pi_description' => 'Structureframe Helper - Reverse Engineer a Structure Page URL to obtain additional info about the page.'
-  );
+	'pi_name' => 'Structureframe Helper',
+	'pi_version' =>'1.1.1',
+	'pi_author' =>'John D Wells',
+	'pi_author_url' => 'https://github.com/johndwells/StructureFrame_Helper',
+	'pi_description' => 'Structureframe Helper - Reverse Engineer a Structure Page URL to obtain additional info about the page.',
+	'pi_usage'      => Structureframe_helper::usage()
+);
 
 class Structureframe_helper {
 
@@ -84,6 +85,8 @@ class Structureframe_helper {
 		return $this->return_data;
 	}
 	// ------------------------------
+
+	public static function usage() {}
 }	
 /* End of file pi.structureframe_helper.php */ 
 /* Location: ./system/expressionengine/third_party/structureframe_helper/pi.structureframe_helper.php */
