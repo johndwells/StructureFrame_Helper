@@ -18,8 +18,9 @@ Assuming you have a StructureFrame Fieldtype setup with a field name of `ft_stru
 	    
     {/exp:channel:entries}
 
-### Parameters
+## Parameters
 
 `url=` The Structure Page's URL, which should be set to your fieldtype
+
 `return=` Possible values are `title` (default) and `id`.
 
